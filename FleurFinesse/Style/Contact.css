@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav{
+	border-radius: 5px;
+    width: 100%;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    height: 80px;
+    border: 1px solid purple;
+    background-color: purple;
+    position: fixed;
+    top: 0;
+    /* padding: 7px 0; */
+    
+}
+
+nav img{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 35px;
+}
+
+nav img:hover{
+    transform: scale(1.5,1.5);
+    box-shadow:10px 10px 40px -14px #000;
+   
+}
+ol{
+    display: inline-block;
+    text-decoration: none;
+    margin-left:47rem;
+    margin-right:20px ;
+}
+
+
+ol li{
+    display: inline-block;
+    margin: 0px 5px 0px 15px;
+}
+
+
+
+ol li:hover{
+    opacity: 0.7;
+    border-bottom: 1px solid white;
+}
+
+a:link,
+a:active,
+a:visited{
+    color: white;
+}
+
+ol li a{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Form */
+
+form{
+    width:450px;
+    height:85vh;
+    background-color: rgba(128, 0, 128, 0.938);
+    border-radius:8px;
+    box-shadow:0 0 30px -5px purple;
+    margin:10rem auto;
+    padding:20px 30px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+    position:relative
+}
+
+h2{
+    margin:10px 0 20px 0;
+    padding-bottom:10px;
+    width:100%;
+    text-align: center;
+    border-bottom:3px solid white;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    color: white;
+    /* color: black; */
+    font-size: 35px;
+    
+}
+
+input{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    /* font-family:'Montserrat',sans-serif; */
+    transition:all .3s;
+    /* border-bottom:2px solid white; */
+    border: 1px solid rgba(255, 255, 255, 0.527);
+
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 28px;
+    margin-bottom: 1rem;
+
+}
+label{
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 28px;
+    /* margin-top: 1rem; */
+}
+
+input:focus{
+    /* border-bottom:2px solid #78788c; */
+    border: none;
+    outline: none;
+    /* outline: 2px dotted white; */
+    height: 5rem;
+    outline: none;
+    border: none;
+    background-color: rgba(214, 126, 214, 0.39);
+    box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+    
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.767);
+    outline: none;
+    border: none;
+    font-family: normal;
+    background-image: linear-gradient(80deg,purple, mediumpurple,white);
+}
+
+
+button{
+   
+    /* font-family: "Open Sans", sans-serif; */
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    color: white;
+    background-color: purple;
+    border: 3px solid solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px white, 2px 2px 0px 0px white, 3px 3px 0px 0px white, 4px 4px 0px 0px white, 5px 5px 0px 0px white;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 13.5rem;
+}
+  
+.button-54:active {
+    box-shadow: 0px 0px 0px 0px white;
+    top: 5px;
+    left: 5px;
+}
+  
+@media (min-width: 768px) {
+    .button-54 {
+      padding: 0.25em 0.75em;
+    }
+}
+
+button:hover{
+    background:white;
+    color:purple;
+}
+
+footer{
+    position:absolute;
+    bottom:-15px;
+    right:-20px;
+    background-image: linear-gradient(80deg,mediumpurple,white,purple);
+    color:purple;
+    width:350px;
+    padding:16px 8px 16px 0;
+    border-radius:6px;
+    font-size:15px;
+    box-shadow:10px 10px 40px -14px #000
+}
+footer:hover{
+    background-color: none;
+}
+
+span{
+    margin:0 5px 0 15px
+}
+
+
+.vdo video{
+    display: block;
+    position: fixed;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    height: 180px;
+    width: 210px;
+}
+
+

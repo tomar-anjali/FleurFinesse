@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+form{
+    width:450px;
+    height:85vh; 
+    border-radius:8px;
+    box-shadow: -4px 1px 66px 4px #740d80;
+    margin:10rem auto;
+    padding:30px 60px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+    position:relative;
+    background-image: linear-gradient(45deg, teal, purple);
+}
+
+h1{
+    margin: 43px 0 50px 0;
+    padding-bottom:10px;
+    width:100%;
+    text-align: center;
+    border-bottom:2px solid #ffffff70;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    color: white; 
+    font-size: 35px;
+
+    
+    letter-spacing: 5px;
+    text-shadow: -3px -3px 6px white;
+
+    
+}
+
+input{
+    width:100%;
+    /* padding:10px; */
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    /* font-family:'Montserrat',sans-serif; */
+    transition:all .3s;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 28px;
+    margin-bottom: 50px;
+    /* margin-top: 2rem; */
+
+}
+label{
+    
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 28px;
+   
+}
+
+input:focus{
+    box-shadow:10px 10px 40px -14px purple;
+    padding-left: 20px;
+    border: none;
+    height: 5rem; box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+    background-image: linear-gradient(45deg, teal, purple);
+    
+}
+
+::placeholder{
+
+    color: rgba(255, 255, 255, 0.616);
+    outline: none;
+    border: none;
+    font-family: normal;
+    font-size: large;
+}
+
+
+button{ 
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    color: white;
+    background-color: #393580;
+    border: 3px solid solid;
+    padding: 0.25em 0.5em;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    display: block;
+    margin: auto;
+}
+
